@@ -1,0 +1,9 @@
+{
+    "llm_model_name": "llama3", 
+    "ollama_base_url": "http://localhost:11434",
+    "gpu_brand": "NVIDIA", 
+    "target_temperature_celsius": 70,
+    "priority": "efficiency",
+    "data_collection_interval_seconds": 10,
+    "app_data_dir": "app_data"
+}
