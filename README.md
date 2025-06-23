@@ -14,9 +14,6 @@ LLM Fine-tuning Guidance: Detailed instructions on how to use your collected dat
 
 Responsive GUI: A clean, intuitive Tkinter user interface with both light and dark modes for comfortable use.
 
-📸 Screenshots
-(Include screenshots of your application here, showing both light and dark modes, and perhaps the metrics display and an example recommendation.)
-
 ⚠️ CRITICAL SAFETY WARNING ⚠️
 GPU overclocking carries inherent risks, including system instability, crashes, and potential hardware damage (e.g., due to excessive heat or voltage).
 
