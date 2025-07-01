@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 (Note: pynvml is a dependency. If you have an NVIDIA GPU, this should install correctly. If you encounter issues, ensure your NVIDIA drivers are up to date. If you have an AMD GPU or no GPU, pynvml might not fully initialize, but the app is designed to handle this gracefully by reporting "N/A" for NVIDIA-specific metrics.)
 
-🛠️ Configuration (config.json)
+Configuration (config.json)
 When you first run the application, a config.json file will be created in the root directory if it doesn't exist. You must review and edit this file:
 
 {
