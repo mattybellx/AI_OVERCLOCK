@@ -1,7 +1,7 @@
 LLM-Powered GPU OC Advisor
 An AI-driven GPU overclocking advisor application built with Tkinter, providing real-time system monitoring and intelligent recommendations for optimized cryptocurrency mining performance, efficiency, and stability.
 
-🚀 Features
+Features
 Real-time System Monitoring: Get live telemetry data for your GPU (temperature, power draw, clock speeds, VRAM usage, fan speed), CPU (temperature, usage), and RAM.
 
 LLM-Powered Overclocking Recommendations: Leverage a local Large Language Model (LLM) (e.g., Llama 3 via Ollama) to receive tailored overclocking settings based on your current system state, desired mining algorithm, and optimization goals (e.g., efficiency, hash rate, longevity).
@@ -14,7 +14,7 @@ LLM Fine-tuning Guidance: Detailed instructions on how to use your collected dat
 
 Responsive GUI: A clean, intuitive Tkinter user interface with both light and dark modes for comfortable use.
 
-⚠️ CRITICAL SAFETY WARNING ⚠️
+SAFETY WARNING
 GPU overclocking carries inherent risks, including system instability, crashes, and potential hardware damage (e.g., due to excessive heat or voltage).
 
 This application provides AI-generated recommendations based on its training data and your system's reported telemetry. It DOES NOT GUARANTEE SAFETY, OPTIMAL PERFORMANCE, or prevent hardware damage.
@@ -31,7 +31,7 @@ Ensure adequate cooling and Power Supply Unit (PSU): Do not exceed your hardware
 
 You are solely responsible for any consequences of applying these recommendations.
 
-⚙️ Installation
+Installation
 Prerequisites
 Python 3.9+:
 Download and install Python from python.org. Ensure you check the "Add Python to PATH" option during installation.
@@ -83,7 +83,7 @@ When you first run the application, a config.json file will be created in the ro
     "app_data_dir": "app_data"          // Directory to store logged metrics and recommendations.
 }
 
-🚀 Usage
+Usage
 Start the Application:
 Ensure your virtual environment is activated (if you created one) and run:
 
@@ -128,7 +128,7 @@ Use the "Light Mode" / "Dark Mode" button in the top right to switch between the
 Exit the Application:
 Close the application window. You will be prompted to confirm the exit, which also gracefully stops the background metric logging.
 
-💡 Troubleshooting
+Troubleshooting
 "LLM did not return a valid response." or "Failed to connect to Ollama."
 
 Ensure Ollama is running in the background. You might need to start it manually or check its service status.
@@ -155,7 +155,7 @@ If you still experience this, ensure you are running the most up-to-date main.py
 
 Sometimes, Tkinter themes can behave differently across various OS versions. If the issue persists, consider trying a different self.style.theme_use("clam") in _setup_styles (e.g., "alt", "default", "vista", "xpnative" on Windows, or "aqua" on macOS) to see if a different base theme resolves it.
 
-🤝 Contributing
+Contributing
 Contributions are welcome! If you have suggestions, bug reports, or want to contribute code, please:
 
 Fork the repository.
@@ -170,10 +170,14 @@ Push to the branch (git push origin feature/your-feature-name).
 
 Open a Pull Request.
 
-📄 License
+or
+
+Reach out at mattybell.co.uk!
+
+License
 This project is licensed under the MIT License.
 
-🙏 Acknowledgements
+Acknowledgements
 Ollama: For making local LLM execution so accessible.
 
 pynvml: For NVIDIA GPU monitoring.
